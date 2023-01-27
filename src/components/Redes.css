@@ -1,0 +1,17 @@
+img{
+    height: 35px;
+    width: 35px;
+}
+
+p{
+    font-size: 22px;
+    font-weight: 600; 
+    color: white;   
+}
+
+.redes{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}

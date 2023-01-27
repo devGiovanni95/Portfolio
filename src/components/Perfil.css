@@ -1,0 +1,30 @@
+.perfil img{
+    width: 200px;
+    height: 200px;
+    border-radius: 100px;
+
+}
+
+.perfil{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.subParagrafo{
+    font-size: 16px;
+    font-weight: 700;
+    color: black;   
+    margin-bottom: 0%;
+    margin-top: 0%;
+    text-align: center;
+}
+
+.paragrafo{
+    text-align: center;
+    font-size: 20px;
+    font-weight: 700;
+    color: black;
+    margin-bottom: 0%;
+    margin-top: 0%;
+}

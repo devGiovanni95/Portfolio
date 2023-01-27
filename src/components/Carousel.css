@@ -1,0 +1,33 @@
+.cardImage{
+    width: 12vw;
+    height: 80vh;
+    display: flex;
+    justify-content: center;
+    align-items:center ;
+    overflow: hidden;
+    border: none;
+
+    /* box-shadow:   0 2px 23px 0 rgba(193, 16, 16, 0.1),
+    0 2px 49px 0 rgba(203, 8, 8, 0.06); */
+
+}
+
+.card{
+    height: 100vh;
+    border: none;
+    background: transparent
+    
+}
+
+ .cardImage:hover{
+    width: 25vw;
+   scroll-behavior: none;
+
+    /* overflow: visible;
+    position: relative;
+    top: 0px; left: 0px; */
+    
+    /* display: flex;
+    justify-content: center;
+    align-items: center; */
+} 

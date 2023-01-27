@@ -1,0 +1,39 @@
+.main{
+    display: grid;
+    grid-template-columns: 1.5fr 5fr;
+    grid-template-rows: auto  ;
+    grid-template-areas: 
+            "perfil content";
+    height: 100vh;
+    background: linear-gradient(to right, #00c3ff, #ffff1c);
+    align-items: center;
+}
+
+
+div.cardPefil{
+    grid-area: perfil;
+}
+
+div.cardProjetos{
+    grid-area: content;
+}
+
+@media(max-width: 576px) {
+    .main{
+        display: grid;
+        grid-template-columns:1fr;
+        grid-template-rows: auto auto ;
+        grid-template-areas: 
+                "perfil"
+                "content";
+        height: 100vh;
+        background: linear-gradient(to right, #00c3ff, #ffff1c);
+        align-items: center;
+        overflow-y: hidden;
+
+    }
+    .cardProjetos{
+        visibility: hidden;
+    }
+   
+}
