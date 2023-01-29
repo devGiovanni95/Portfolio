@@ -3,18 +3,15 @@ import ReactDOM from 'react-dom/client';
 import './index.css';
 import reportWebVitals from './reportWebVitals';
 import 'bootstrap/dist/css/bootstrap.min.css';
-import HomePage from './main/HomePage';
-import  Routes from './main/Routes';
-import { BrowserRouter } from 'react-router-dom';
-import Descricao from './main/Descricao';
-import Rota from './main/Rota';
+import Fundo from './main/Fundo';
 
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
- <BrowserRouter>
-   <HomePage/>
- </BrowserRouter>
+  <React.StrictMode>
+      <Fundo/>
+   </React.StrictMode>
+
 );
 
 // If you want to start measuring performance in your app, pass a function

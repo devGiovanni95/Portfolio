@@ -4,7 +4,7 @@ import Linkedin from '../img/icon/linkedin.png'
 import GitHub from '../img/icon/github.png'
 import Projetos from '../img/icon/projects.png'
 import Botao from "./Botao"
-import Descricao from "../main/Descricao"
+import Descricao from "./project/Descricao"
 
 
 export default props =>
@@ -22,12 +22,10 @@ export default props =>
                 link="https://github.com/devGiovanni95"
                 />
 
-<div>
-<Botao nome="Ver Projetos"
+        <Botao nome="Ver Projetos"
                 rede={Projetos} 
-                
+                link='/projetos'
                  />    
-</div>
     
     </div>
 

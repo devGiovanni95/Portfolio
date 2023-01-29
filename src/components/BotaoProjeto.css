@@ -1,12 +1,13 @@
-.btn{
-    width: 180px;
+.btnProjeto{
+    width: 270px;
     height: 50px;
     border-radius: 10px;
+    background:#000000;
 
 }
 
-.btn:hover{
-    background: #B5FFE1;
+.btnProjeto:hover{
+    background: #FFF;
     color: black;
     font-weight: 700;
     text-decoration: none;

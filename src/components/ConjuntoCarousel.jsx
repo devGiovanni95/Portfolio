@@ -6,8 +6,8 @@ import Finans from '../img/image/Finans.png'
 import Poke from '../img/image/ApiPokemon.png'
 import ListaExercicios from '../img/image/ListaExercicios.png'
 import ListaTarefa from '../img/image/ListaTarefa.png'
-import Netflix from '../img/image/netflix.png'
-import TecBlog from '../img/image/tecblog.png'
+import Netflix from '../img/image/Netflix.png'
+import TecBlog from '../img/image/Tecblog.png'
 import Carousel from "./Carousel";
 
 

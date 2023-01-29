@@ -1,0 +1,38 @@
+html, body{
+    width: 100vw;
+    height: 100vh;
+    background: linear-gradient(to right, #00c3ff, #ffff1c);
+    overflow-x:hidden;
+}
+
+.principal{
+    display: flex;
+    flex-direction: column;
+    align: center;
+    align-items: center;
+    justify-items: center;
+
+}
+
+p{
+    text-align:center;
+}
+
+h1{
+    color:black;
+    font-size:50px;
+}
+
+.projetos{
+    width: 70vw;
+}
+
+.voltar{
+    background:#08415C;
+}
+
+.btnRedes{
+    display: flex;
+    align-items: between;
+    justify-content: between;
+}

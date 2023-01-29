@@ -1,11 +1,13 @@
-.btn{
-    width: 180px;
+.btnVoltar{
+    width: 80px;
     height: 50px;
     border-radius: 10px;
+    background:#08415C;
+    border:none;
 
 }
 
-.btn:hover{
+.btnVoltar:hover{
     background: #B5FFE1;
     color: black;
     font-weight: 700;

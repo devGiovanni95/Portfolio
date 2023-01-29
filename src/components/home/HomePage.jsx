@@ -1,9 +1,9 @@
 import React from "react"
 import './HomePage.css'
-import Perfil from '../components/Perfil';
-import Redes from '../components/Redes';
+import Perfil from '../Perfil';
+import Redes from '../Redes';
 import 'bootstrap/dist/css/bootstrap.min.css';
-import ConjuntoCarousel from '../components/ConjuntoCarousel';
+import ConjuntoCarousel from '../ConjuntoCarousel';
 
 
 export default props =>

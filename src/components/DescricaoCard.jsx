@@ -1,34 +1,23 @@
-
+import React from 'react';
+import Botao from './Botao';
+import './DescricaoCard.css'
 
 export default props => 
-    <div className="imagem">
+    <div className='foto'>
 
-    {/* <!-- Descrição do Projeto --> */}
-    <p className="sobre">
-      Projeto Clone do Netflix é uma simulação da página principal do
-      Netflix. <br/>
-      Este projeto conta também com uma integração de API para fazer uma
-      busca de filmes.
-    </p>
+      <p>
+        {props.descricao}
+        <br />
+        {props.continuacao}
 
-    {/* <!-- Imagem do Projeto --> */}
-    <img src={props.foto} alt="" className="img-fluid"/>
+      </p>
+   
+      <img src={props.foto} alt=""/>
 
-    {/* <!-- Botões de navegação --> */}
-    <div className="d-flex justify-content-start align-content-center mt-4 ">
-      <a className="btn btn-outline-dark btn-sm text-bg-dark "
-        href="https://github.com/devGiovanni95/Project-Netflix-Clone">
-        <p>
-          <img src={props.foto} className="goToProject"/> Ver Projeto no
-          GitHub
-        </p>
-      </a>
-      <a class="btn btn-outline-dark btn-sm text-bg-dark ms-4"
-        href="https://github.com/devGiovanni95/Project-Netflix-Clone">
-        <p>
-          <img src="img/rede.png" className="goToProject"/> Abrir Projeto
-        </p>
-      </a>
+      <div className=''>
+      
+      </div>
+
     </div>
-  </div>
+
   
