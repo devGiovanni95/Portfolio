@@ -20,11 +20,6 @@ import BotaoProjeto from "../BotaoProjeto.jsx";
 
 export default props =>
     <div>
-        {/* <div className=" d-flex align-items-start ml-3 mt-3">
-            <link rel="stylesheet" href={HomePage} />
-            <img src={Voltar} alt=""  />
-                
-        </div> */}
         <div className=" d-flex align-items-start ml-3 mt-3">
             <BotaoVoltar  
                     rede={Voltar}
