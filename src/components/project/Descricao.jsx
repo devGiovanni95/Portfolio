@@ -8,7 +8,7 @@ import Pokemon from '../../img/image/ApiPokemon.png';
 import Tecblog from '../../img/image/Tecblog.png';
 import TelaLogin from '../../img/image/TelaLogin.png';
 import ListaTarefa from '../../img/image/ListaTarefa.png';
-import ListaEnderecos from '../../img/image/ListaEndereço.png';
+import ListaEnderecos from '../../img/image/ListaEndereco.png';
 import ListaExercicios from '../../img/image/ListaExercicios.png';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import './Descricao.css';
