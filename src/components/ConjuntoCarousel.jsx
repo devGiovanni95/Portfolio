@@ -4,7 +4,6 @@ import './ConjuntoCarousel.css'
 
 import Finans from '../img/image/Finans.png'
 import Poke from '../img/image/ApiPokemon.png'
-import ListaExercicios from '../img/image/ListaExercicios.png'
 import ListaTarefa from '../img/image/ListaTarefa.png'
 import Netflix from '../img/image/Netflix.png'
 import TecBlog from '../img/image/Tecblog.png'
@@ -19,7 +18,7 @@ export default props =>
     <Carousel className='cardImg' nome={Finans}/>
     <Carousel className='cardImg' nome={Poke}/>
     <Carousel className='cardImg' nome={ListaTarefa}/>
-    {/* <Carousel className='cardImg' nome={ListaExercicios}/> */}
+   
     
 </div>
 

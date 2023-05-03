@@ -4,7 +4,7 @@ import Linkedin from '../img/icon/linkedin.png'
 import GitHub from '../img/icon/github.png'
 import Projetos from '../img/icon/projects.png'
 import Botao from "./Botao"
-import Descricao from "./project/Descricao"
+
 
 
 export default props =>
