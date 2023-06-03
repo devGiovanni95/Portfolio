@@ -2,7 +2,7 @@ import DescricaoCard from "../DescricaoCard.jsx";
 import Site from '../../img/icon/rede.png';
 import GitHub from '../../img/icon/github.png';
 import React from 'react';
-import Netflix from '../../img/image/Netflix.png';
+import Netflix from '../../img/image/netflix.png';
 import Finans from '../../img/image/Finans.png';
 import Pokemon from '../../img/image/ApiPokemon.png';
 import Tecblog from '../../img/image/Tecblog.png';
