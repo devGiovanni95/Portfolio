@@ -5,7 +5,7 @@ import React from 'react';
 import Netflix from '../../img/image/netflix.png';
 import Finans from '../../img/image/Finans.png';
 import Pokemon from '../../img/image/ApiPokemon.png';
-import Tecblog from '../../img/image/Tecblog.png';
+import Tecblog from '../../img/image/tecblog.png';
 import TelaLogin from '../../img/image/TelaLogin.png';
 import ListaTarefa from '../../img/image/ListaTarefa.png';
 import ListaEnderecos from '../../img/image/ListaEndereco.png';
