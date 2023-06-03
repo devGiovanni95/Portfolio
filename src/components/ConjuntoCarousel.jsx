@@ -11,15 +11,15 @@ import Carousel from "./Carousel";
 
 
 
-export default props =>
+const ConjuntoCarousel = (props) => (
 <div className="cards">
     <Carousel className='cardImg' nome={Netflix}/>
     <Carousel className='cardImg' nome={TecBlog}/>
     <Carousel className='cardImg' nome={Finans}/>
     <Carousel className='cardImg' nome={Poke}/>
-    <Carousel className='cardImg' nome={ListaTarefa}/>
-   
+    <Carousel className='cardImg' nome={ListaTarefa}/>  
     
 </div>
+)
 
-
+export default ConjuntoCarousel;

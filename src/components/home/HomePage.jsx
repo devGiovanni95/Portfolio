@@ -6,7 +6,7 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 import ConjuntoCarousel from '../ConjuntoCarousel';
 
 
-export default props =>
+const HomePage = (props) =>(
 
 <div className="main">
     <div className="cardPefil">
@@ -17,3 +17,5 @@ export default props =>
         <ConjuntoCarousel/>
     </div>
 </div>
+)
+export default HomePage;

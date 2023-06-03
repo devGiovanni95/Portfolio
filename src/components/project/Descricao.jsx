@@ -2,7 +2,7 @@ import DescricaoCard from "../DescricaoCard.jsx";
 import Site from '../../img/icon/rede.png';
 import GitHub from '../../img/icon/github.png';
 import React from 'react';
-//import Netflix from '../../img/image/Netflix.png';
+import Netflix from '../../img/image/Netflix.png';
 import Finans from '../../img/image/Finans.png';
 import Pokemon from '../../img/image/ApiPokemon.png';
 import Tecblog from '../../img/image/Tecblog.png';
@@ -18,7 +18,7 @@ import BotaoVoltar from "../BotaoVoltar.jsx";
 import BotaoProjeto from "../BotaoProjeto.jsx";
 
 
-export default props =>
+const Descricao = (props) =>(
     <div>
         <div className=" d-flex align-items-start ml-3 mt-3">
             <BotaoVoltar  
@@ -37,7 +37,28 @@ export default props =>
 
             <div className="projetos">
 
-             
+                {/* Netflix */}
+                <div>
+                    <DescricaoCard className="imagem"
+                    foto={Netflix}
+                        descricao=" 
+                        Projeto Clone do Netflix é uma simulação da página principal do
+                        Netflix."
+                        continuacao="Este projeto conta também com uma integração de API para fazer uma
+                        busca de filmes."
+                        />
+                    <div className="btnRedes d-flex justify-content-around">
+
+                        <BotaoProjeto rede={GitHub} 
+                        nome="Ver Projeto no GitHub"
+                        link="https://github.com/devGiovanni95/Project-Netflix-Clone"
+                        />    
+                        <BotaoProjeto rede={Site}
+                        nome="Abrir Projeto no Navegador"
+                        link="https://devgiovanni95.github.io/Project-Netflix-Clone/public/"
+                        />    
+                    </div>
+                </div>
                  
                  {/* Finans */}
                  <div className="mt-5">
@@ -214,3 +235,6 @@ export default props =>
         </div>
     </div>
 
+)
+
+export default Descricao;

@@ -7,7 +7,7 @@ import Botao from "./Botao"
 
 
 
-export default props =>
+const Redes = (props) => (
 
     <div className="redes">
         <p>Conheça Minhas Redes</p>    
@@ -28,4 +28,7 @@ export default props =>
                  />    
     
     </div>
+)
+
+export default Redes;
 
