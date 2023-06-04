@@ -2,10 +2,10 @@ import DescricaoCard from "../DescricaoCard.jsx";
 import Site from '../../img/icon/rede.png';
 import GitHub from '../../img/icon/github.png';
 import React from 'react';
-import Netflix from '../../img/image/netflix.png';
+//import Netflix from '../../img/image/netflix.png';
 import Finans from '../../img/image/Finans.png';
 import Pokemon from '../../img/image/ApiPokemon.png';
-import Tecblog from '../../img/image/tecblog.png';
+//import Tecblog from '../../img/image/tecblog.png';
 import TelaLogin from '../../img/image/TelaLogin.png';
 import ListaTarefa from '../../img/image/ListaTarefa.png';
 import ListaEnderecos from '../../img/image/ListaEndereco.png';
@@ -37,7 +37,7 @@ const Descricao = (props) =>(
 
             <div className="projetos">
 
-                {/* Netflix */}
+                {/* Netflix 
                 <div>
                     <DescricaoCard className="imagem"
                     foto={Netflix}
@@ -59,8 +59,9 @@ const Descricao = (props) =>(
                         />    
                     </div>
                 </div>
+                */}
                  
-                 {/* Finans */}
+                 {/* Finans 
                  <div className="mt-5">
                     <DescricaoCard className="imagem"
                     foto={Finans}
@@ -78,6 +79,7 @@ const Descricao = (props) =>(
                         />    
                     </div>
                 </div>
+                */}
 
 
 
