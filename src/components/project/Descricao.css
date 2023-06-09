@@ -36,3 +36,12 @@ h1{
     align-items: between;
     justify-content: between;
 }
+
+
+@media(max-width: 812px) {
+    .btnRedes {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+}

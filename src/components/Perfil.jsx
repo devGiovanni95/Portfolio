@@ -14,5 +14,5 @@ export default props =>
           <p className="subParagrafo">Fatec Indaiatuba</p>
           <p className="subParagrafo">Inicio Fevereiro de 2022</p>
           <p className="subParagrafo">Conclusão Dezembro de 2024</p>
-          <p className="subParagrafo">Cursando 2º Semestre</p>
+          <p className="subParagrafo">Cursando 3º Semestre</p>
     </div>

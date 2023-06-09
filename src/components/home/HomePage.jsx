@@ -15,6 +15,7 @@ const HomePage = (props) =>(
     </div>
     <div className="cardProjetos">
         <ConjuntoCarousel/>
+        
     </div>
 </div>
 )
