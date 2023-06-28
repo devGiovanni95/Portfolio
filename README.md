@@ -1,4 +1,4 @@
 # Project for the my personal Portfolio  
 
-## Link do Projeto para visualização personal
+## Project link for viewing
 ### <link>https://devgiovanni95portfolio.netlify.app/</link>
